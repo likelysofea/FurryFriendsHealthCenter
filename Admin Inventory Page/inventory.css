@@ -1,0 +1,22 @@
+.quantity-counter {
+    display: flex;
+    align-items: center;
+}
+  
+.quantity-input {
+    text-align: center;
+    margin: 0 5px;
+    width: 50px; /* Adjust the width as needed */
+}
+
+.btn-decrement,
+.btn-increment {
+    padding: 0 10px;
+    height: 30px; /* Match this height to your input field */
+    line-height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

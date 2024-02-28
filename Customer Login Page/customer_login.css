@@ -1,0 +1,19 @@
+body {
+    background-color: #fffffe;
+    overflow-y: hidden;
+}
+
+.vertical-center {
+    min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    min-height: calc(100vh - 56px); /* Adjusted for fixed navbar if present, replace 56px with the height of your navbar */
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: #6246ea;
+}
+
+.form-control{
+    background-color: #fffffe;
+}

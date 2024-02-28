@@ -1,0 +1,6 @@
+# .gitignore
+
+config.php
+tcpdf/
+PHPMailer/
+assets/

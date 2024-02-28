@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#usernameInvalidFeedback {
+  margin-top: 2px !important;
+}
+
+#passwordInvalidFeedback {
+  margin-top: 5px;
+}
+
+.btn.btn-primary.w-100.py-2{
+  margin-top: 50px;
+}
